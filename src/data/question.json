@@ -1,0 +1,1167 @@
+[
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "In the word root for conservation, servare stands for",
+    "options": ["together", "to keep", "house", "manage"],
+    "answer": "to keep"
+  },
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "Phillips curve shows the relation between",
+    "options": [
+      "profit and loss",
+      "marked price and selling price",
+      "inflation rate and unemployment rate",
+      "electricity consumption and heat output"
+    ],
+    "answer": "inflation rate and unemployment rate"
+  },
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "The ability of a single economic actor (or small group of actors) to have a substantial influence on market prices is known as",
+    "options": [
+      "price power",
+      "market power",
+      "externality",
+      "economic power"
+    ],
+    "answer": "market power"
+  },
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "An increase in the overall level of prices in the economy is",
+    "options": ["inflation", "deflation", "stagflation", "priceflation"],
+    "answer": "inflation"
+  },
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "In the word root for conservation, con stands for",
+    "options": ["together", "to keep", "house", "manage"],
+    "answer": "together"
+  },
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "Input costs that do not require an outlay of money are",
+    "options": [
+      "explicit costs",
+      "implicit costs",
+      "opportunity costs",
+      "phantom costs"
+    ],
+    "answer": "implicit costs"
+  },
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "In the word root for Economics, nemein stands for",
+    "options": ["together", "to keep", "house", "manage"],
+    "answer": "manage"
+  },
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "The property of distributing economic prosperity uniformly among the members of society is a definition of",
+    "options": ["efficiency", "equality", "prudence", "sustainability"],
+    "answer": "equality"
+  },
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "In the word root for Economics, oikos stands for",
+    "options": ["together", "to keep", "house", "manage"],
+    "answer": "house"
+  },
+  {
+    "course_id": 1,
+    "week_id": 1,
+    "question": "Fluctuations in economic activity, such as employment and production, are referred to as",
+    "options": [
+      "business cycles",
+      "economic cycles",
+      "production cycles",
+      "market cycles"
+    ],
+    "answer": "business cycles"
+  },
+  
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "Which of these is a pillar of sustainability?",
+    "options": [
+      "social sustainability",
+      "industrial sustainability",
+      "agricultural sustainability",
+      "trans-boundary sustainability"
+    ],
+    "answer": "social sustainability"
+  },
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "Which of these is not a pillar of sustainability?",
+    "options": [
+      "environmental sustainability",
+      "economic sustainability",
+      "trans-boundary sustainability",
+      "social sustainability"
+    ],
+    "answer": "trans-boundary sustainability"
+  },
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "Which of these is a positive check according to Malthus?",
+    "options": [
+      "late marriage",
+      "war",
+      "celibacy",
+      "moral restraint"
+    ],
+    "answer": "war"
+  },
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "The Trinity explosion of 1945 is taken as the beginning of the",
+    "options": [
+      "Holocene",
+      "Cenocene",
+      "Anthropocene",
+      "Eocene"
+    ],
+    "answer": "Anthropocene"
+  },
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "The demographic transition sees a society move from",
+    "options": [
+      "high birth rate, low death rate to low birth rate, high death rate",
+      "low birth rate, high death rate to low birth rate, low death rate",
+      "high birth rate, high death rate to low birth rate, low death rate",
+      "high birth rate, high death rate to low birth rate, high death rate"
+    ],
+    "answer": "high birth rate, high death rate to low birth rate, low death rate"
+  },
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "The logistic growth equation curve is",
+    "options": [
+      "I-shaped",
+      "J-shaped",
+      "S-shaped",
+      "U-shaped"
+    ],
+    "answer": "S-shaped"
+  },
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "According to Malthusian model,",
+    "options": [
+      "Population grows in geometric progression, food supply increases in arithmetic progression",
+      "Population grows in geometric progression, food supply increases in geometric progression",
+      "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+      "Population grows in arithmetic progression, food supply increases in geometric progression"
+    ],
+    "answer": "Population grows in geometric progression, food supply increases in arithmetic progression"
+  },
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "The book 'An Essay on the Principle of Population' was written by",
+    "options": [
+      "Darwin",
+      "Malthus",
+      "Spencer",
+      "Owens"
+    ],
+    "answer": "Malthus"
+  },
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "The quantum of human impacts can be written as",
+    "options": [
+      "I = P + A + T",
+      "I = P X A + T",
+      "I = P X A X T",
+      "I = P + A X T"
+    ],
+    "answer": "I = P X A X T"
+  },
+  {
+    "course_id": 1,
+    "week_id": 2,
+    "question": "Which of these is a preventive check according to Malthus?",
+    "options": [
+      "foresight",
+      "vice",
+      "misery",
+      "flood"
+    ],
+    "answer": "foresight"
+  },
+
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "The potential or capacity of a material to have adverse effects on living organisms is",
+    "options": [
+      "vulnerability",
+      "susceptibility",
+      "sustainability",
+      "toxicity"
+    ],
+    "answer": "toxicity"
+  },
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "Which determines which projects or developments require a full or partial impact assessment study?",
+    "options": [
+      "screening",
+      "scoping",
+      "reporting",
+      "review"
+    ],
+    "answer": "screening"
+  },
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "Macrodebris in the context of plastic debris has fragments of size",
+    "options": [
+      "> 20 mm",
+      "5 - 20 mm",
+      "< 5 mm",
+      "< 1 mm"
+    ],
+    "answer": "> 20 mm"
+  },
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli is defined as",
+    "options": [
+      "adaptation",
+      "mitigation",
+      "maladaptation",
+      "malmitigation"
+    ],
+    "answer": "maladaptation"
+  },
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "The extent to which a chemical is available for uptake into an organism is",
+    "options": [
+      "bioavailability",
+      "bioaccumulation",
+      "biomagnification",
+      "bioresponse"
+    ],
+    "answer": "bioavailability"
+  },
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "Hydrocarbons derived directly from mineral oils are",
+    "options": [
+      "petrogenic hydrocarbons",
+      "pyrogenic hydrocarbons",
+      "biogenic hydrocarbons",
+      "chemoenic hydrocarbons"
+    ],
+    "answer": "petrogenic hydrocarbons"
+  },
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "The relative effect of exposure is",
+    "options": [
+      "vulnerability",
+      "sensitivity",
+      "sustainability",
+      "toxicity"
+    ],
+    "answer": "sensitivity"
+  },
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "The increasing concentration of a substance in organisms at higher levels in a food chain is called",
+    "options": [
+      "bioavailability",
+      "bioaccumulation",
+      "biomagnification",
+      "bioresponse"
+    ],
+    "answer": "biomagnification"
+  },
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "Mesodebris in the context of plastic debris has fragments of size",
+    "options": [
+      "> 20 mm",
+      "5 - 20 mm",
+      "< 5 mm",
+      "< 1 mm"
+    ],
+    "answer": "5 - 20 mm"
+  },
+  {
+    "course_id": 1,
+    "week_id": 3,
+    "question": "Which is used to identify which potential impacts are relevant to assess?",
+    "options": [
+      "screening",
+      "scoping",
+      "reporting",
+      "review"
+    ],
+    "answer": "scoping"
+  },
+
+  
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "Which of these is not a physical factor of habitat?",
+    "options": ["soil", "moisture", "predators", "temperature"],
+    "answer": "predators"
+  },
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "Which correctly represents habitat fragmentation process?",
+    "options": [
+      "Original forest → Dissection → Perforation → Fragmentation → Attrition",
+      "Original forest → Dissection → Attrition → Fragmentation → Perforation",
+      "Original forest → Dissection → Perforation → Attrition → Fragmentation",
+      "Original forest → Dissection → Fragmentation → Perforation → Attrition"
+    ],
+    "answer": "Original forest → Dissection → Perforation → Fragmentation → Attrition"
+  },
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "A root zone treatment plant is an example of",
+    "options": [
+      "phytoremediation",
+      "biological control",
+      "biomagnification",
+      "bioaccumulation"
+    ],
+    "answer": "phytoremediation"
+  },
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "Rate of biological process limited by least factor is",
+    "options": [
+      "Liebig’s law of the minimum",
+      "Liebig’s law of the maximum",
+      "Shelford’s law of tolerance",
+      "Shelford’s law of intolerance"
+    ],
+    "answer": "Liebig’s law of the minimum"
+  },
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "Movement from birthplace to new habitat is called",
+    "options": ["translocation", "migration", "dispersal", "drifting"],
+    "answer": "dispersal"
+  },
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "Which is a stochastic factor?",
+    "options": [
+      "birth rate",
+      "death rate",
+      "population structure",
+      "environmental fluctuation"
+    ],
+    "answer": "environmental fluctuation"
+  },
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "Movement of lions across Gir landscape is",
+    "options": [
+      "diffusion",
+      "secular dispersal",
+      "jump dispersal",
+      "drifting"
+    ],
+    "answer": "secular dispersal"
+  },
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "HIPPO does not include",
+    "options": [
+      "habitat loss",
+      "invasive species",
+      "pollination",
+      "pollution"
+    ],
+    "answer": "pollination"
+  },
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "Vegetables dying under teak plantation indicates",
+    "options": ["autophagy", "allelophagy", "autopathy", "allelopathy"],
+    "answer": "allelopathy"
+  },
+  {
+    "course_id": 1,
+    "week_id": 4,
+    "question": "Seasonal movement of animals is called",
+    "options": ["translocation", "migration", "dispersal", "drifting"],
+    "answer": "migration"
+  },
+  
+
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Fire protection is",
+    "options": ["private good", "club good", "common resource", "public good"],
+    "answer": "public good"
+  },
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Ability to produce using fewer inputs is",
+    "options": [
+      "comparative advantage",
+      "absolute advantage",
+      "production advantage",
+      "resource advantage"
+    ],
+    "answer": "absolute advantage"
+  },
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Which is not internalisation method?",
+    "options": [
+      "tradable pollution permits",
+      "charities to social causes",
+      "command-and-control policies",
+      "free market"
+    ],
+    "answer": "charities to social causes"
+  },
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Public goods are",
+    "options": [
+      "excludable, rival",
+      "non-excludable, rival",
+      "excludable, non-rival",
+      "non-excludable, non-rival"
+    ],
+    "answer": "non-excludable, non-rival"
+  },
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Club goods are",
+    "options": [
+      "excludable, rival",
+      "non-excludable, rival",
+      "excludable, non-rival",
+      "non-excludable, non-rival"
+    ],
+    "answer": "excludable, non-rival"
+  },
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Impact on bystander well-being is",
+    "options": [
+      "actor-observer effect",
+      "externality",
+      "internality",
+      "benefits principle"
+    ],
+    "answer": "externality"
+  },
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Simplified system description is",
+    "options": ["equation", "model", "philosophy", "process dynamics"],
+    "answer": "model"
+  },
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Measure of happiness is",
+    "options": ["utility", "satiety", "gladity", "value"],
+    "answer": "utility"
+  },
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Clothing is",
+    "options": ["private good", "club good", "common resource", "public good"],
+    "answer": "private good"
+  },
+  {
+    "course_id": 1,
+    "week_id": 5,
+    "question": "Private goods are",
+    "options": [
+      "excludable, rival",
+      "non-excludable, rival",
+      "excludable, non-rival",
+      "non-excludable, non-rival"
+    ],
+    "answer": "excludable, rival"
+  },
+
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Quantity supplied rises with price is",
+    "options": [
+      "law of demand",
+      "law of supply",
+      "law of quantity demanded",
+      "law of quantity supplied"
+    ],
+    "answer": "law of supply"
+  },
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Table showing price vs quantity supplied is",
+    "options": [
+      "demand table",
+      "demand schedule",
+      "supply table",
+      "supply schedule"
+    ],
+    "answer": "supply schedule"
+  },
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Coffee and sugar are",
+    "options": ["substitutes", "complements", "club goods", "public goods"],
+    "answer": "complements"
+  },
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Graph of price vs quantity demanded is",
+    "options": [
+      "demand curve",
+      "supply curve",
+      "Laffer's curve",
+      "Phillips curve"
+    ],
+    "answer": "demand curve"
+  },
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Elasticity of supply measures",
+    "options": [
+      "price elasticity of demand",
+      "income elasticity",
+      "cross elasticity",
+      "price elasticity of supply"
+    ],
+    "answer": "price elasticity of supply"
+  },
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Demand increases with income is",
+    "options": ["normal good", "inferior good", "Giffen good", "common good"],
+    "answer": "normal good"
+  },
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Elasticity between two goods is",
+    "options": [
+      "price elasticity",
+      "income elasticity",
+      "cross-price elasticity",
+      "supply elasticity"
+    ],
+    "answer": "cross-price elasticity"
+  },
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Graph of price vs quantity supplied is",
+    "options": [
+      "demand curve",
+      "supply curve",
+      "Laffer's curve",
+      "Phillips curve"
+    ],
+    "answer": "supply curve"
+  },
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Legal minimum price is",
+    "options": [
+      "price ceiling",
+      "price floor",
+      "selling ceiling",
+      "selling floor"
+    ],
+    "answer": "price floor"
+  },
+  {
+    "course_id": 1,
+    "week_id": 6,
+    "question": "Table showing price vs quantity demanded is",
+    "options": [
+      "demand table",
+      "demand schedule",
+      "supply table",
+      "supply schedule"
+    ],
+    "answer": "demand schedule"
+  },
+
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Laffer's curve is the relationship between",
+    "options": ["inflation and unemployment", "tax size and tax revenue", "producer surplus and consumer surplus", "tax size and deadweight loss"],
+    "answer": "tax size and tax revenue"
+  },
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Amount a buyer is willing to pay minus actual payment is",
+    "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
+    "answer": "consumer surplus"
+  },
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Fall in total surplus due to market distortion is",
+    "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
+    "answer": "deadweight loss"
+  },
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Amount seller receives minus cost is",
+    "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
+    "answer": "producer surplus"
+  },
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Maximum amount buyer will pay is",
+    "options": ["willingness to pay", "market demand", "demand curve", "buyer’s surplus"],
+    "answer": "willingness to pay"
+  },
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Imposition of tariff",
+    "options": ["increases producer surplus and government revenue", "increases consumer surplus and government revenue", "increases producer surplus, consumer surplus and government revenue", "increases total surplus"],
+    "answer": "increases producer surplus and government revenue"
+  },
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Area between supply curve and price is",
+    "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
+    "answer": "producer surplus"
+  },
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Value to buyers minus cost to sellers is",
+    "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
+    "answer": "total surplus"
+  },
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Price prevailing in world market is",
+    "options": ["export price", "import price", "world price", "domestic price"],
+    "answer": "world price"
+  },
+  {
+    "course_id": 1,
+    "week_id": 7,
+    "question": "Area between demand curve and price is",
+    "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
+    "answer": "consumer surplus"
+  },
+
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "For a positive production externality",
+    "options": ["SMB = PMB", "SMB = PMB − MD", "SMB = PMB + MB", "SMC = PMC / MD"],
+    "answer": "SMB = PMB + MB"
+  },
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "Direct benefit to consumers is",
+    "options": ["PMC", "SMC", "PMB", "SMB"],
+    "answer": "PMB"
+  },
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "Partying with loud noise is",
+    "options": ["negative production", "positive production", "negative consumption", "positive consumption"],
+    "answer": "negative consumption"
+  },
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "Consumption reducing others well-being is",
+    "options": ["negative production", "positive production", "negative consumption", "positive consumption"],
+    "answer": "negative consumption"
+  },
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "Firm production harming others is",
+    "options": ["negative production", "positive production", "negative consumption", "positive consumption"],
+    "answer": "negative production"
+  },
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "Vaccination is",
+    "options": ["negative production", "positive production", "negative consumption", "positive consumption"],
+    "answer": "positive consumption"
+  },
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "Firm production benefiting others is",
+    "options": ["negative production", "positive production", "negative consumption", "positive consumption"],
+    "answer": "positive production"
+  },
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "Positive consumption externality",
+    "options": ["SMB = PMB", "SMB = PMB − MD", "SMB = PMB + MB", "SMC = PMC / MD"],
+    "answer": "SMB = PMB + MB"
+  },
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "Negative consumption externality",
+    "options": ["SMB = PMB", "SMB = PMB − MD", "SMB = PMB + MB", "SMC = PMC / MD"],
+    "answer": "SMB = PMB − MD"
+  },
+  {
+    "course_id": 1,
+    "week_id": 8,
+    "question": "Negative production externality",
+    "options": ["SMC = PMC + MD", "SMC = PMC - MD", "SMC = PMC", "SMC = PMC - MB"],
+    "answer": "SMC = PMC + MD"
+  },
+
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "A situation where a buyer is at a risk of being sold goods of low quality is an example of",
+    "options": [
+      "adverse selection",
+      "moral hazard",
+      "symmetric information",
+      "none of these"
+    ],
+    "answer": "adverse selection"
+  },
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "The change in consumption that results when a price change moves the consumer to a higher or lower indifference curve is known as",
+    "options": [
+      "income effect",
+      "substitution effect",
+      "indifference effect",
+      "budget effect"
+    ],
+    "answer": "income effect"
+  },
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "Which of these is not a property of indifference curves?",
+    "options": [
+      "Higher indifference curves are preferred to lower ones",
+      "Indifference curves are downward-sloping",
+      "Indifference curves cross at right angles",
+      "Indifference curves are bowed inwards"
+    ],
+    "answer": "Indifference curves cross at right angles"
+  },
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "An action taken by an informed party to reveal private information to an uninformed party is known as",
+    "options": [
+      "signalling",
+      "screening",
+      "informing",
+      "heuristics"
+    ],
+    "answer": "signalling"
+  },
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "The part of actual resources that can be developed profitably in the future are",
+    "options": [
+      "potential resources",
+      "actual resources",
+      "reserve resources",
+      "stock resources"
+    ],
+    "answer": "reserve resources"
+  },
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "A curve that shows consumption bundles that give the consumer the same level of satisfaction is known as",
+    "options": [
+      "consumption curve",
+      "satisfaction curve",
+      "indifference curve",
+      "budget curve"
+    ],
+    "answer": "indifference curve"
+  },
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "The rate at which a consumer is willing to trade one good for another is known as",
+    "options": [
+      "marginal rate of substitution",
+      "marginal rate of exchange",
+      "marginal rate of trade",
+      "marginal rate of transfer"
+    ],
+    "answer": "marginal rate of substitution"
+  },
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "Ram is not wearing clothes properly, so Ram must also be lazy. This is an example of",
+    "options": [
+      "confirmation bias",
+      "halo effect",
+      "horn effect",
+      "priming"
+    ],
+    "answer": "horn effect"
+  },
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "Mental shortcut justifying increased investment because prior investment was made is",
+    "options": [
+      "affect heuristic",
+      "availability heuristic",
+      "effort heuristic",
+      "escalation of commitment"
+    ],
+    "answer": "escalation of commitment"
+  },
+  {
+    "course_id": 1,
+    "week_id": 11,
+    "question": "Those resources that may be used in the future are",
+    "options": [
+      "potential resources",
+      "actual resources",
+      "reserve resources",
+      "stock resources"
+    ],
+    "answer": "potential resources"
+  },
+
+
+  
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "The political philosophy according to which the government should choose policies deemed just, as evaluated by an impartial observer behind a veil of ignorance is",
+    "options": [
+      "Utilitarianism",
+      "Liberalism",
+      "Libertarianism",
+      "Socialism"
+    ],
+    "answer": "Liberalism"
+  },
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "A condition characterised by severe deprivation of basic human needs is known as",
+    "options": [
+      "absolute poverty",
+      "relative poverty",
+      "median poverty",
+      "poverty line"
+    ],
+    "answer": "absolute poverty"
+  },
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "An absolute level of income set by the government below which a family is deemed to be in poverty is known as",
+    "options": [
+      "deprivation line",
+      "poverty line",
+      "deprivation index",
+      "poverty index"
+    ],
+    "answer": "poverty line"
+  },
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "Above-equilibrium wages paid by firms to increase worker productivity are known as",
+    "options": [
+      "compensating wage",
+      "efficiency wage",
+      "productivity wage",
+      "retention wage"
+    ],
+    "answer": "efficiency wage"
+  },
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "A difference in wages that arises to offset the non-monetary characteristics of different jobs is known as",
+    "options": [
+      "differentiating differential",
+      "compensating differential",
+      "differentiating integral",
+      "compensating integral"
+    ],
+    "answer": "compensating differential"
+  },
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "Absolute poverty depends",
+    "options": [
+      "on income but not on access to social services",
+      "not on income but on access to social services",
+      "on income and on access to social services",
+      "neither on income nor on access to social services"
+    ],
+    "answer": "on income and on access to social services"
+  },
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "A condition where a household’s income is lower than the median income is known as",
+    "options": [
+      "absolute poverty",
+      "relative poverty",
+      "median poverty",
+      "poverty line"
+    ],
+    "answer": "relative poverty"
+  },
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "The equipment and structures used to produce goods and services is",
+    "options": [
+      "tools",
+      "machinery",
+      "capital",
+      "factors of production"
+    ],
+    "answer": "capital"
+  },
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "For a competitive and profit-maximising firm",
+    "options": [
+      "each factor’s rental price < the value of the marginal product",
+      "each factor’s rental price = the value of the marginal product",
+      "each factor’s rental price > the value of the marginal product",
+      "each factor’s rental price = the value of the average product"
+    ],
+    "answer": "each factor’s rental price = the value of the marginal product"
+  },
+  {
+    "course_id": 1,
+    "week_id": 10,
+    "question": "The political philosophy according to which the government should punish crimes and enforce voluntary agreements but not redistribute income is",
+    "options": [
+      "Utilitarianism",
+      "Liberalism",
+      "Libertarianism",
+      "Socialism"
+    ],
+    "answer": "Libertarianism"
+  },
+
+  
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "The increase in total cost that arises from an extra unit of production is",
+    "options": [
+      "fixed costs",
+      "variable costs",
+      "marginal costs",
+      "sunk costs"
+    ],
+    "answer": "marginal costs"
+  },
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "The increase in output that arises from an additional unit of input is",
+    "options": [
+      "marginal product",
+      "marginal profit",
+      "marginal loss",
+      "marginal cost"
+    ],
+    "answer": "marginal product"
+  },
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "A monopolist firm’s profit is given by",
+    "options": [
+      "(Price - ATC) × Q",
+      "(Price - Q) × ATC",
+      "(ATC - Q) × Price",
+      "Price × Q - ATC"
+    ],
+    "answer": "(Price - ATC) × Q"
+  },
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "Which of the following is true for a competitive firm?",
+    "options": [
+      "P > MR",
+      "P > MC",
+      "MR > MC",
+      "MR = MC"
+    ],
+    "answer": "MR = MC"
+  },
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "The relationship between the quantity of inputs used to make a good and the quantity of output is",
+    "options": [
+      "Laffer’s curve",
+      "Phillips curve",
+      "Production function",
+      "Output function"
+    ],
+    "answer": "Production function"
+  },
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "Total revenue minus total cost including explicit and implicit costs is",
+    "options": [
+      "economic profit",
+      "accounting profit",
+      "profit",
+      "loss"
+    ],
+    "answer": "economic profit"
+  },
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "When one firm produces at lower cost than competitive firms, it is a",
+    "options": [
+      "natural monopoly",
+      "artificial monopoly",
+      "oligopoly",
+      "duopoly"
+    ],
+    "answer": "natural monopoly"
+  },
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "Which of the following is true for a monopoly?",
+    "options": [
+      "P > MR",
+      "MR > MC",
+      "MC > P",
+      "MC > MR"
+    ],
+    "answer": "P > MR"
+  },
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "Costs that do not vary with the quantity of output produced are",
+    "options": [
+      "fixed costs",
+      "variable costs",
+      "marginal costs",
+      "sunk costs"
+    ],
+    "answer": "fixed costs"
+  },
+  {
+    "course_id": 1,
+    "week_id": 9,
+    "question": "Total revenue minus total explicit cost is",
+    "options": [
+      "economic profit",
+      "accounting profit",
+      "profit",
+      "loss"
+    ],
+    "answer": "accounting profit"
+  }
+
+
+
+
+
+
+
+
+
+
+]
