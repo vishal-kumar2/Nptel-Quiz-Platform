@@ -39,21 +39,36 @@ export default function App() {
   if (loading) return <div className="h-screen flex items-center justify-center">Loading...</div>;
 
   // 🚀 START QUIZ
-  const startQuiz = () => {
-    if (!selectedWeeks.length) return alert("Select weeks");
+ const startQuiz = () => {
+  if (!selectedWeeks.length) return alert("Select weeks");
 
-    const filtered = allQuestions.filter(
-      (q) => q.course_id == selectedCourse && selectedWeeks.includes(q.week_id)
-    );
+  const filtered = allQuestions.filter(
+    (q) =>
+      q.course_id == selectedCourse &&
+      selectedWeeks.includes(q.week_id)
+  );
 
-    const shuffled = shuffle(filtered);
+  if (!filtered.length) {
+    alert("No questions found");
+    return;
+  }
 
-    setQuestions(shuffled);
-    setAnswers([]);
-    setSelectedOption([]);
+  // 🔥 SHUFFLE QUESTIONS + OPTIONS
+  const shuffledQuestions = shuffle(filtered).map((q) => {
+    const shuffledOptions = shuffle(q.options);
 
-    navigate("/quiz");
-  };
+    return {
+      ...q,
+      options: shuffledOptions,
+    };
+  });
+
+  setQuestions(shuffledQuestions);
+  setAnswers([]);
+  setSelectedOption([]);
+
+  navigate("/quiz"); // router navigation
+};
 
   // 🎯 HANDLE ANSWER
   const handleAnswer = (opt, index) => {
