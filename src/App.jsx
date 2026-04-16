@@ -81,7 +81,7 @@ export default function App() {
 
   // 🚀 START QUIZ
   const startQuiz = () => {
-  localStorage.setItem("startTime", Date.now()); // ✅ START TIME
+  localStorage.setItem("startTime", Date.now());
 
   if (!selectedWeeks.length) return alert("Select weeks");
 
@@ -95,7 +95,14 @@ export default function App() {
     filtered = shuffle(filtered).slice(0, 75);
   }
 
-  const shuffled = shuffle(filtered);
+  // 🔥 ADD THIS BLOCK
+  const withShuffledOptions = filtered.map((q) => ({
+    ...q,
+    options: shuffle(q.options), // ✅ shuffle options ONCE
+  }));
+
+  // 👇 use this instead of filtered
+  const shuffled = shuffle(withShuffledOptions);
 
   setQuestions(shuffled);
   setAnswers([]);

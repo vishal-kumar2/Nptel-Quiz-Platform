@@ -16,7 +16,7 @@ export default function Header({ user, setUser, resetApp }) {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-xl border-b border-white/30 shadow-sm">
+    <header className=" top-0  bg-white/70 backdrop-blur-xl border-b border-white/30 shadow-sm">
 
       <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
 
