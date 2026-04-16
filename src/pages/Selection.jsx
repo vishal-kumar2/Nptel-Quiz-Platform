@@ -165,8 +165,8 @@ export default function Selection({
                   : "bg-gray-100 hover:bg-green-100"
               }`}
           >
-            <p className="font-semibold">Practice</p>
-            <p className="text-xs">Learn concepts without pressure 💡</p>
+            <p className="font-semibold">Study Mode</p>
+            <p className="text-xs">Learn Questions with instant Correct answers 💡</p>
           </div>
 
           {/* TEST */}
@@ -180,7 +180,7 @@ export default function Selection({
               }`}
           >
             <p className="font-semibold">Test</p>
-            <p className="text-xs">Simulate real exam conditions ⏱️</p>
+            <p className="text-xs">Test Yourself and get Your Performance review ⏱️</p>
           </div>
 
           {/* EXAM */}

@@ -30,10 +30,10 @@ export default function Landing() {
           </button>
 
           <button
-            onClick={() => navigate("/login")}
-            className="px-8 py-4 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-semibold shadow-lg hover:scale-105 transition"
+            disabled
+            className="px-8 py-4 rounded-xl bg-gray-300 text-gray-600 font-semibold shadow cursor-not-allowed"
           >
-            Login & Track Progress
+            Login & Progress Tracking 
           </button>
         </div>
 
@@ -46,12 +46,12 @@ export default function Landing() {
 
           <div className="bg-white/60 p-6 rounded-xl shadow hover:scale-105 transition">
             📊 <p className="font-semibold mt-2">Performance Tracking</p>
-            <p className="text-sm mt-1">Analyze your progress over time</p>
+            <p className="text-sm mt-1">Analyze your progress in every test</p>
           </div>
 
           <div className="bg-white/60 p-6 rounded-xl shadow hover:scale-105 transition">
             🎯 <p className="font-semibold mt-2">Exam Simulation</p>
-            <p className="text-sm mt-1">Experience real CBT-style exams</p>
+            <p className="text-sm mt-1">Challenge Yourself with Exam Mode</p>
           </div>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function Landing() {
             <p className="text-xl font-bold">1️⃣</p>
             <p className="font-semibold mt-2">Select Course</p>
             <p className="text-sm text-gray-600 mt-1">
-              Choose your course and weeks
+              Choose your NPTEL Course and Weeks 
             </p>
           </div>
 
@@ -98,9 +98,9 @@ export default function Landing() {
         <div className="grid sm:grid-cols-3 gap-6">
           {/* PRACTICE */}
           <div className="bg-green-100 p-6 rounded-xl shadow">
-            <p className="font-semibold text-green-700">Practice Mode</p>
+            <p className="font-semibold text-green-700">Study Mode</p>
             <p className="text-sm mt-2 text-gray-700">
-              Learn concepts with instant feedback and no pressure.
+              Learn the questions with instant feedback.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ export default function Landing() {
           <div className="bg-red-100 p-6 rounded-xl shadow">
             <p className="font-semibold text-red-700">Test Mode</p>
             <p className="text-sm mt-2 text-gray-700">
-              Timed tests with performance evaluation.
+              Validate Yourself in Test Mode amd Check Your result.
             </p>
           </div>
 
@@ -116,7 +116,7 @@ export default function Landing() {
           <div className="bg-purple-100 p-6 rounded-xl shadow">
             <p className="font-semibold text-purple-700">Exam Mode</p>
             <p className="text-sm mt-2 text-gray-700">
-              75 random questions for real exam simulation.
+              Challenge Yourself with 75 random questions for real exam simulation.
             </p>
           </div>
         </div>
