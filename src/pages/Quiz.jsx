@@ -1,57 +1,52 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import ProgressBar from "../components/ProgressBar";
 import QuestionCard from "../components/QuestionCard";
 
 export default function Quiz({
-  questions,
-  answers,
-  selectedOption,
+  questions = [],
+  answers = [],
+  selectedOption = [],
   handleAnswer,
   submitQuiz,
-  mode
+  mode,
 }) {
   const navigate = useNavigate();
-
   const attempted = selectedOption.filter(Boolean).length;
-  const [timeLeft, setTimeLeft] = useState(600);
 
   const [showPopup, setShowPopup] = useState(false);
-
-  // ⏱ TIMER (TEST MODE)
+  const [showExitPopup, setShowExitPopup] = useState(false);
+ 
+  
+  // 🔥 BACK BUTTON CONTROL (FINAL)
   useEffect(() => {
-    if (mode !== "test") return;
+    if (mode !== "test" && mode !== "exam") return;
 
-    const timer = setInterval(() => {
-      setTimeLeft(prev => {
-        if (prev <= 1) {
-          clearInterval(timer);
-          submitQuiz();
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
+    // push fake state
+    window.history.pushState(null, "", window.location.pathname);
 
-    return () => clearInterval(timer);
-  }, [mode]);
-
-  // 🔙 BACK BUTTON WARNING
-  useEffect(() => {
-    const handlePop = () => {
-      if (mode === "test") {
-        const confirmLeave = window.confirm("Leave test?");
-        if (!confirmLeave) {
-          navigate("/quiz");
-        }
-      }
+    const handlePopState = () => {
+      setShowExitPopup(true); // show custom modal
+      window.history.pushState(null, "", window.location.pathname);
     };
 
-    window.addEventListener("popstate", handlePop);
-    return () => window.removeEventListener("popstate", handlePop);
+    window.addEventListener("popstate", handlePopState);
+
+    return () => {
+      window.removeEventListener("popstate", handlePopState);
+    };
   }, [mode]);
 
-  // ✅ FINISH PRACTICE
+  // 🔥 EXIT HANDLERS
+  const handleExitConfirm = () => {
+    setShowExitPopup(false);
+    navigate("/select");
+  };
+
+  const handleStay = () => {
+    setShowExitPopup(false);
+  };
+
+  // ✅ PRACTICE FINISH
   const handleFinishPractice = () => {
     if (attempted === questions.length) {
       navigate("/select");
@@ -60,25 +55,62 @@ export default function Quiz({
     }
   };
 
-  return (
-    <div className="p-6 flex flex-col items-center">
-
-      {/* HEADER */}
-      <div className="flex justify-between w-full max-w-3xl mb-4">
-        <ProgressBar attempted={attempted} total={questions.length} />
-
-        {mode === "test" && (
-          <div className="bg-red-500 text-white px-4 py-2 rounded-lg">
-            ⏱ {timeLeft}s
-          </div>
-        )}
+  if (!questions.length) {
+    return (
+      <div className="h-screen flex items-center justify-center">
+        Loading...
       </div>
+    );
+  }
+
+  return (
+    <div className="w-full">
+
+      {/* 🔥 STICKY PROGRESS BAR */}
+      <div className="sticky top-0 z-40 w-full bg-white/80 backdrop-blur-md border-b">
+
+  <div className="w-full px-6 py-3 flex items-start justify-between">
+
+    {/* 🔙 LEFT SIDE */}
+    <button
+      onClick={() => setShowExitPopup(true)}
+      className="flex items-center gap-2 text-gray-600 hover:text-indigo-600 px-2 py-1 rounded-lg hover:bg-gray-100 transition"
+    >
+      <span className="text-lg">←</span>
+      <span className="text-sm font-medium">Back</span>
+    </button>
+
+    {/* 📊 RIGHT SIDE */}
+    <div className="flex flex-col items-end w-[100px] sm:w-[200px] md:w-[260px]">
+
+  {/* TEXT */}
+  <div className="flex items-center gap-2 mb-1">
+    <span className="text-xs text-gray-500">Attempted</span>
+    <span className="text-sm font-semibold text-indigo-600">
+      {attempted}/{questions.length}
+    </span>
+  </div>
+
+  {/* PROGRESS BAR */}
+  <div className="w-full bg-gray-200 rounded-full h-1.5 overflow-hidden">
+    <div
+      className="bg-gradient-to-r from-indigo-500 via-purple-500 to-indigo-500 h-1.5 rounded-full transition-all duration-300"
+      style={{
+        width: `${(attempted / questions.length) * 100}%`,
+      }}
+    />
+  </div>
+
+</div>
+
+  </div>
+</div>
 
       {/* QUESTIONS */}
-      <div className="w-full max-w-3xl space-y-4">
+      <div className="w-full max-w-3xl mx-auto space-y-4 mt-6 px-4">
         {questions.map((q, i) => (
           <QuestionCard
-            key={i}
+            key={`${q.question}-${i}`}
             q={q}
             index={i}
             answers={answers}
@@ -89,40 +121,43 @@ export default function Quiz({
         ))}
       </div>
 
-      {/* TEST MODE SUBMIT */}
-      {mode === "test" && (
-        <button
-          onClick={submitQuiz}
-          className="mt-6 bg-indigo-600 text-white px-6 py-3 rounded-xl"
-        >
-          Submit Test
-        </button>
+      {/* SUBMIT */}
+      {(mode === "test" || mode === "exam") && (
+        <div className="w-full flex justify-center">
+          <button
+            onClick={submitQuiz}
+            className="mt-8 mb-10 bg-indigo-600 text-white px-8 py-3 rounded-xl shadow-lg hover:scale-105 transition"
+          >
+            Submit
+          </button>
+        </div>
       )}
 
-      {/* PRACTICE MODE FINISH */}
+      {/* PRACTICE */}
       {mode === "practice" && (
-        <button
-          onClick={handleFinishPractice}
-          className="mt-6 bg-green-500 text-white px-6 py-3 rounded-xl hover:scale-105 transition"
-        >
-          Finish Practice ✅
-        </button>
+        <div className="w-full flex justify-center">
+          <button
+            onClick={handleFinishPractice}
+            className="mt-8 mb-10 bg-green-500 text-white px-8 py-3 rounded-xl shadow-lg hover:scale-105 transition"
+          >
+            Finish Practice
+          </button>
+        </div>
       )}
 
-      {/* 🚨 POPUP */}
+      {/* 🔥 PRACTICE WARNING POPUP */}
       {showPopup && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black/40">
-
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm">
           <div className="bg-white p-6 rounded-2xl shadow-xl text-center max-w-sm w-full">
 
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">
-              ⚠️ Incomplete Attempt
+            <div className="text-3xl mb-2">⚠️</div>
+
+            <h3 className="font-semibold text-lg mb-2">
+              Incomplete Attempt
             </h3>
 
             <p className="text-gray-600 mb-4">
               You have {questions.length - attempted} unanswered question(s).
-              <br />
-              Please attempt all questions to finish.
             </p>
 
             <button
@@ -131,6 +166,45 @@ export default function Quiz({
             >
               Continue
             </button>
+
+          </div>
+        </div>
+      )}
+
+      {/* 🔥 EXIT TEST POPUP */}
+      {showExitPopup && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm">
+
+          <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-sm w-full text-center animate-scaleIn">
+
+            <div className="text-4xl mb-3">⚠️</div>
+
+            <h3 className="text-xl font-bold text-gray-800 mb-2">
+              Leave Test?
+            </h3>
+
+            <p className="text-gray-600 mb-6">
+              Your progress will not be saved.  
+              Are you sure you want to exit?
+            </p>
+
+            <div className="flex gap-4">
+
+              <button
+                onClick={handleStay}
+                className="flex-1 py-2 rounded-xl bg-gray-100 hover:bg-gray-200 transition"
+              >
+                Stay
+              </button>
+
+              <button
+                onClick={handleExitConfirm}
+                className="flex-1 py-2 rounded-xl bg-red-500 text-white hover:bg-red-600 transition"
+              >
+                Leave
+              </button>
+
+            </div>
 
           </div>
         </div>

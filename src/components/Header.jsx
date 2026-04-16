@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { signOut } from "../services/auth";
 
-export default function Header({ user, setUser }) {
+export default function Header({ user, setUser, resetApp }) {
   const navigate = useNavigate();
 
   const handleLogout = async () => {
@@ -12,10 +12,12 @@ export default function Header({ user, setUser }) {
 
   return (
     <header className="bg-white/70 backdrop-blur shadow px-6 py-4 flex justify-between items-center">
-
       {/* LOGO */}
       <h1
-        onClick={() => navigate("/")}
+        onClick={() => {
+          resetApp();
+          navigate("/");
+        }}
         className="font-bold text-indigo-700 text-lg cursor-pointer"
       >
         NPTEL Practice
@@ -23,7 +25,6 @@ export default function Header({ user, setUser }) {
 
       {/* RIGHT SIDE */}
       <div className="flex items-center gap-4">
-
         {/* DASHBOARD */}
         {user && (
           <button
@@ -44,11 +45,8 @@ export default function Header({ user, setUser }) {
           </button>
         ) : (
           <div className="flex items-center gap-3">
-
             {/* USER EMAIL */}
-            <span className="text-sm text-gray-600">
-              {user.email}
-            </span>
+            <span className="text-sm text-gray-600">{user.email}</span>
 
             {/* LOGOUT */}
             <button
@@ -59,7 +57,6 @@ export default function Header({ user, setUser }) {
             </button>
           </div>
         )}
-
       </div>
     </header>
   );

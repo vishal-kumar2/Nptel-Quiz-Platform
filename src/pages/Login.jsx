@@ -21,7 +21,6 @@ export default function Login({ setUser }) {
   return (
     <div className="flex items-center justify-center flex-1 px-4">
       <div className="bg-white p-6 rounded-xl shadow w-full max-w-md">
-
         <h2 className="text-2xl font-bold mb-4 text-center">
           {isLogin ? "Login" : "Create Account"}
         </h2>
@@ -48,7 +47,10 @@ export default function Login({ setUser }) {
         </button>
 
         <p className="text-sm text-center mt-4">
-          <span onClick={() => setIsLogin(!isLogin)} className="cursor-pointer text-indigo-600">
+          <span
+            onClick={() => setIsLogin(!isLogin)}
+            className="cursor-pointer text-indigo-600"
+          >
             Switch Mode
           </span>
         </p>
@@ -59,7 +61,6 @@ export default function Login({ setUser }) {
         >
           Continue as Guest
         </button>
-
       </div>
     </div>
   );

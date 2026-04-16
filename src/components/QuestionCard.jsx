@@ -1,29 +1,27 @@
-export default function QuestionCard({
+import React from "react";
+
+function QuestionCard({
   q,
   index,
-  answers,
-  selectedOption,
+  answers = [],
+  selectedOption = [],
   handleAnswer,
-  mode
+  mode,
 }) {
+  const isAnswered = answers[index];
+
   return (
     <div className="bg-white/80 backdrop-blur-xl p-5 rounded-2xl shadow-md border border-gray-200">
-
-      {/* QUESTION */}
       <h3 className="mb-4 font-semibold text-gray-800">
         {index + 1}. {q.question}
       </h3>
 
-      {/* OPTIONS */}
       <div className="space-y-3">
-        {q.options.map((opt, i) => {
+        {q.options.map((opt) => {
           const isSelected = selectedOption[index] === opt;
-          const isAnswered = answers[index];
 
-          let style =
-            "w-full p-3 rounded-xl border text-left transition";
+          let style = "w-full p-3 rounded-xl border text-left transition";
 
-          // 🟢 PRACTICE MODE
           if (mode === "practice" && isAnswered) {
             if (opt === q.answer) {
               style += " bg-green-100 border-green-400";
@@ -32,27 +30,23 @@ export default function QuestionCard({
             } else {
               style += " bg-gray-100";
             }
-          }
-
-          // 🔵 TEST MODE (no correctness shown)
-          else if (mode === "test") {
-            if (isSelected) {
-              style += " bg-indigo-100 border-indigo-400";
-            } else {
-              style += " bg-gray-50 hover:bg-indigo-50";
-            }
-          }
-
-          // DEFAULT (before answering in practice)
-          else {
+          } else if (mode === "test") {
+            style += isSelected
+              ? " bg-indigo-100 border-indigo-400"
+              : " bg-gray-50 hover:bg-indigo-50";
+          } else if (mode === "exam") {
+            style += isSelected
+              ? " bg-purple-100 border-purple-400"
+              : " bg-gray-50 hover:bg-purple-50";
+          } else {
             style += " bg-gray-50 hover:bg-indigo-50";
           }
 
           return (
             <button
-              key={i}
+              key={`${index}-${opt}`}
               onClick={() => handleAnswer(opt, index)}
-              disabled={mode === "practice" && isAnswered} // 🔒 lock in practice
+              disabled={mode === "practice" && isAnswered}
               className={style}
             >
               {opt}
@@ -60,7 +54,8 @@ export default function QuestionCard({
           );
         })}
       </div>
-
     </div>
   );
 }
+
+export default React.memo(QuestionCard);

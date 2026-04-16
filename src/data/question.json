@@ -1153,6 +1153,128 @@
       "loss"
     ],
     "answer": "accounting profit"
+  },
+
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "'the cost of impacts caused by emission of carbon dioxide' is known as",
+    "options": [
+      "cost of carbon",
+      "economic cost of carbon",
+      "social cost of carbon",
+      "cultural cost of carbon"
+    ],
+    "answer": "social cost of carbon"
+  },
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
+    "options": [
+      "umbrella species",
+      "keystone species",
+      "flagship species",
+      "extinct species"
+    ],
+    "answer": "flagship species"
+  },
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "Nutrient cycling is an example of",
+    "options": [
+      "provisioning service",
+      "regulating service",
+      "supporting service",
+      "cultural service"
+    ],
+    "answer": "supporting service"
+  },
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "Soil formation is an example of",
+    "options": [
+      "provisioning service",
+      "regulating service",
+      "supporting service",
+      "cultural service"
+    ],
+    "answer": "supporting service"
+  },
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
+    "options": [
+      "umbrella species",
+      "keystone species",
+      "flagship species",
+      "all of the above"
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "As per Wildlife Protection Act 1972 (WPA 1972), wild life includes any animal, aquatic or land vegetation which forms part of any _____ (fill in the blank)",
+    "options": [
+      "state",
+      "habitat",
+      "country",
+      "ecosystem"
+    ],
+    "answer": "habitat"
+  },
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "The elephant has a home range of several square kilometres, regulates the ecosystem by its habit of destructive feeding, and people can relate to this animal which is important for conservation. Given this background, the elephant can be called as",
+    "options": [
+      "umbrella species",
+      "keystone species",
+      "flagship species",
+      "all of the above"
+      
+    ],
+    "answer": "all of the above"
+  },
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "Zoo is an example of",
+    "options": [
+      "in-situ conservation",
+      "ex-situ conservation",
+      "in-situ preservation",
+      "ex-situ preservation"
+    ],
+    "answer": "ex-situ conservation"
+  },
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "Biological control of pest populations is an example of",
+    "options": [
+      "cultural service",
+      "supporting service",
+      "provisioning service",
+      "regulating service"
+    ],
+    "answer": "regulating service"
+  },
+  {
+    "course_id": 1,
+    "week_id": 12,
+    "question": "Captive breeding is an example of",
+    "options": [
+      "in-situ conservation",
+      "ex-situ conservation",
+      "in-situ preservation",
+      "ex-situ preservation"
+    ],
+    "answer": "ex-situ conservation"
   }
 
 
