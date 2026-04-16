@@ -49,6 +49,7 @@ export default function Selection({
       setShowError(true);
       return;
     }
+
     window.scrollTo(0, 0);
     startQuiz();
   };
@@ -128,8 +129,8 @@ export default function Selection({
                     mode === "exam"
                       ? "bg-gray-200 text-gray-400 cursor-not-allowed"
                       : selected
-                        ? "bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg scale-105"
-                        : "bg-gray-100 hover:bg-indigo-100 hover:scale-105"
+                      ? "bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg scale-105"
+                      : "bg-gray-100 hover:bg-indigo-100 hover:scale-105"
                   }`}
               >
                 W{w}
@@ -138,7 +139,7 @@ export default function Selection({
           })}
         </div>
 
-        {/* EXAM MODE INFO */}
+        {/* EXAM INFO */}
         {mode === "exam" && (
           <p className="text-center text-sm text-gray-500 mb-4">
             All weeks are automatically included in Exam Mode 🎯
@@ -152,10 +153,10 @@ export default function Selection({
             : "No weeks selected"}
         </p>
 
-        {/* MODE SELECTION */}
-        <div className="grid grid-cols-3 gap-4 mb-8">
+        {/* 🔥 MODE SELECTION */}
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-8">
 
-          {/* PRACTICE */}
+          {/* STUDY */}
           <div
             onClick={() => setMode("practice")}
             className={`cursor-pointer p-4 rounded-xl text-center transition
@@ -166,7 +167,9 @@ export default function Selection({
               }`}
           >
             <p className="font-semibold">Study Mode</p>
-            <p className="text-xs">Learn Questions with instant Correct answers 💡</p>
+            <p className="text-xs">
+              Learn with instant answers 💡
+            </p>
           </div>
 
           {/* TEST */}
@@ -180,21 +183,27 @@ export default function Selection({
               }`}
           >
             <p className="font-semibold">Test</p>
-            <p className="text-xs">Test Yourself and get Your Performance review ⏱️</p>
+            <p className="text-xs">
+              Evaluate your performance ⏱️
+            </p>
           </div>
 
-          {/* EXAM */}
-          <div
-            onClick={() => setMode("exam")}
-            className={`cursor-pointer p-4 rounded-xl text-center transition
-              ${
-                mode === "exam"
-                  ? "bg-purple-600 text-white shadow-lg scale-105"
-                  : "bg-gray-100 hover:bg-purple-100"
-              }`}
-          >
-            <p className="font-semibold">Exam</p>
-            <p className="text-xs">Challenge yourself with 75 questions 🎯</p>
+          {/* EXAM (CENTERED) */}
+          <div className="col-span-2 md:col-span-1 flex justify-center">
+            <div
+              onClick={() => setMode("exam")}
+              className={`cursor-pointer w-[65%] sm:w-[55%] md:w-full p-4 rounded-xl text-center transition
+                ${
+                  mode === "exam"
+                    ? "bg-purple-600 text-white shadow-lg scale-105"
+                    : "bg-gray-100 hover:bg-purple-100"
+                }`}
+            >
+              <p className="font-semibold">Exam</p>
+              <p className="text-xs">
+                Challenge yourself 🎯
+              </p>
+            </div>
           </div>
 
         </div>
@@ -209,12 +218,10 @@ export default function Selection({
 
       </div>
 
-      {/* 🔥 BEAUTIFUL POPUP */}
+      {/* 🔥 POPUP */}
       {showError && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40 backdrop-blur-sm">
-
-          <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-sm w-full text-center animate-scaleIn">
-
+          <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-sm w-full text-center">
             <div className="text-4xl mb-3">⚠️</div>
 
             <h3 className="text-xl font-bold text-gray-800 mb-2">
@@ -222,16 +229,15 @@ export default function Selection({
             </h3>
 
             <p className="text-gray-600 mb-6">
-              Please select a course and at least one week before starting.
+              Please select a course and at least one week.
             </p>
 
             <button
               onClick={() => setShowError(false)}
-              className="w-full py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-700 transition"
+              className="w-full py-2 rounded-xl bg-indigo-600 text-white"
             >
               Got it 👍
             </button>
-
           </div>
         </div>
       )}
