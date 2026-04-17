@@ -226,7 +226,7 @@
   {
     "course_id": 1,
     "week_id": 3,
-    "question": "Which determines which projects or developments require a full or partial impact assessment study?",
+    "question": "_____determines which projects or developments require a full or partial impact assessment study . (Fill in the blank)",
     "options": [
       "screening",
       "scoping",
@@ -250,7 +250,7 @@
   {
     "course_id": 1,
     "week_id": 3,
-    "question": "Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli is defined as",
+    "question": "“Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli; an adaptation that does not succeed in reducing vulnerability but increases it instead” is a definition for",
     "options": [
       "adaptation",
       "mitigation",
@@ -298,7 +298,7 @@
   {
     "course_id": 1,
     "week_id": 3,
-    "question": "The increasing concentration of a substance in organisms at higher levels in a food chain is called",
+    "question": "The increasing concentration of a substance, such as a toxic chemical, in the tissues of tolerant organisms at successively higher levels in a food chain is called",
     "options": [
       "bioavailability",
       "bioaccumulation",
@@ -322,7 +322,7 @@
   {
     "course_id": 1,
     "week_id": 3,
-    "question": "Which is used to identify which potential impacts are relevant to assess?",
+    "question": "_______is used to identify which potential impacts are relevant to assess.(fill in the blank)",
     "options": [
       "screening",
       "scoping",
@@ -343,7 +343,7 @@
   {
     "course_id": 1,
     "week_id": 4,
-    "question": "Which correctly represents habitat fragmentation process?",
+    "question": "Which of these correctly represents the process of habitat fragmentation and loss?",
     "options": [
       "Original forest → Dissection → Perforation → Fragmentation → Attrition",
       "Original forest → Dissection → Attrition → Fragmentation → Perforation",
@@ -367,7 +367,7 @@
   {
     "course_id": 1,
     "week_id": 4,
-    "question": "Rate of biological process limited by least factor is",
+    "question": "\"The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor.\" This is the statement for",
     "options": [
       "Liebig’s law of the minimum",
       "Liebig’s law of the maximum",
@@ -379,7 +379,7 @@
   {
     "course_id": 1,
     "week_id": 4,
-    "question": "Movement from birthplace to new habitat is called",
+    "question": "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
     "options": ["translocation", "migration", "dispersal", "drifting"],
     "answer": "dispersal"
   },
@@ -398,7 +398,7 @@
   {
     "course_id": 1,
     "week_id": 4,
-    "question": "Movement of lions across Gir landscape is",
+    "question": "The movement of lions across Gir landscape is an example of",
     "options": [
       "diffusion",
       "secular dispersal",
@@ -410,7 +410,7 @@
   {
     "course_id": 1,
     "week_id": 4,
-    "question": "HIPPO does not include",
+    "question": "The acronym HIPPO does not include",
     "options": [
       "habitat loss",
       "invasive species",
@@ -422,14 +422,14 @@
   {
     "course_id": 1,
     "week_id": 4,
-    "question": "Vegetables dying under teak plantation indicates",
+    "question": "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
     "options": ["autophagy", "allelophagy", "autopathy", "allelopathy"],
     "answer": "allelopathy"
   },
   {
     "course_id": 1,
     "week_id": 4,
-    "question": "Seasonal movement of animals is called",
+    "question": "The regular, seasonal movement of animals, often along fixed routes is called",
     "options": ["translocation", "migration", "dispersal", "drifting"],
     "answer": "migration"
   },
