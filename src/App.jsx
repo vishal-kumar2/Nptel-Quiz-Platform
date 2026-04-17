@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom";
 
 import useAuth from "./hooks/useAuth";
