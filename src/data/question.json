@@ -792,7 +792,7 @@
   {
     "course_id": 1,
     "week_id": 11,
-    "question": "A situation where a buyer is at a risk of being sold goods of low quality is an example of",
+    "question": "\"a situation where a buyer is at a risk of being sold goods of low quality\" is an example of",
     "options": [
       "adverse selection",
       "moral hazard",
@@ -804,7 +804,7 @@
   {
     "course_id": 1,
     "week_id": 11,
-    "question": "The change in consumption that results when a price change moves the consumer to a higher or lower indifference curve is known as",
+    "question": "“the change in consumption that results when a price change moves the consumer to a higher or lower indifference curve” is known as",
     "options": [
       "income effect",
       "substitution effect",
@@ -828,7 +828,7 @@
   {
     "course_id": 1,
     "week_id": 11,
-    "question": "An action taken by an informed party to reveal private information to an uninformed party is known as",
+    "question": "“an action taken by an informed party to reveal private information to an uninformed party” is known as",
     "options": [
       "signalling",
       "screening",
@@ -840,7 +840,7 @@
   {
     "course_id": 1,
     "week_id": 11,
-    "question": "The part of actual resources that can be developed profitably in the future are",
+    "question": "“the part of actual resources that can be developed profitably in the future” are",
     "options": [
       "potential resources",
       "actual resources",
@@ -852,7 +852,7 @@
   {
     "course_id": 1,
     "week_id": 11,
-    "question": "A curve that shows consumption bundles that give the consumer the same level of satisfaction is known as",
+    "question": "\"A curve that shows consumption bundles that give the consumer the same level of satisfaction\" is known as",
     "options": [
       "consumption curve",
       "satisfaction curve",
@@ -888,7 +888,7 @@
   {
     "course_id": 1,
     "week_id": 11,
-    "question": "Mental shortcut justifying increased investment because prior investment was made is",
+    "question": "\"Mental shortcut justifying increased investment because prior investment was made\" is",
     "options": [
       "affect heuristic",
       "availability heuristic",
@@ -900,7 +900,7 @@
   {
     "course_id": 1,
     "week_id": 11,
-    "question": "Those resources that may be used in the future are",
+    "question": "\"Those resources that may be used in the future\" are",
     "options": [
       "potential resources",
       "actual resources",
@@ -915,7 +915,7 @@
   {
     "course_id": 1,
     "week_id": 10,
-    "question": "The political philosophy according to which the government should choose policies deemed just, as evaluated by an impartial observer behind a veil of ignorance is",
+    "question": "The political philosophy according to which the government should choose policies deemed just, as evaluated by an impartial observer behind a \"veil of ignorance\" is",
     "options": [
       "Utilitarianism",
       "Liberalism",
@@ -927,7 +927,7 @@
   {
     "course_id": 1,
     "week_id": 10,
-    "question": "A condition characterised by severe deprivation of basic human needs is known as",
+    "question": "“a condition characterised by severe deprivation of basic human needs, including food, safe drinking water, sanitation facilities, health, shelter, education and information” is known as",
     "options": [
       "absolute poverty",
       "relative poverty",
@@ -951,7 +951,7 @@
   {
     "course_id": 1,
     "week_id": 10,
-    "question": "Above-equilibrium wages paid by firms to increase worker productivity are known as",
+    "question": "\"above-equilibrium wages paid by firms to increase worker productivity\" are known as",
     "options": [
       "compensating wage",
       "efficiency wage",
@@ -963,7 +963,7 @@
   {
     "course_id": 1,
     "week_id": 10,
-    "question": "A difference in wages that arises to offset the non-monetary characteristics of different jobs is known as",
+    "question": "\"A difference in wages that arises to offset the non-monetary characteristics of different jobs\" is known as",
     "options": [
       "differentiating differential",
       "compensating differential",
@@ -987,7 +987,7 @@
   {
     "course_id": 1,
     "week_id": 10,
-    "question": "A condition where a household’s income is lower than the median income is known as",
+    "question": "“a condition where a household’s income is lower than the median income in the particular country” is known as",
     "options": [
       "absolute poverty",
       "relative poverty",
@@ -999,7 +999,7 @@
   {
     "course_id": 1,
     "week_id": 10,
-    "question": "The equipment and structures used to produce goods and services is",
+    "question": "\"The equipment and structures used to produce goods and services\" is the defination of",
     "options": [
       "tools",
       "machinery",
@@ -1013,17 +1013,17 @@
     "week_id": 10,
     "question": "For a competitive and profit-maximising firm",
     "options": [
-      "each factor’s rental price < the value of the marginal product",
-      "each factor’s rental price = the value of the marginal product",
-      "each factor’s rental price > the value of the marginal product",
-      "each factor’s rental price = the value of the average product"
+      "each factor’s rental price < the value of the marginal product for that factor",
+      "each factor’s rental price = the value of the marginal product for that factor",
+      "each factor’s rental price > the value of the marginal product for that factor",
+      "each factor’s rental price = the value of the average product for that factor"
     ],
-    "answer": "each factor’s rental price = the value of the marginal product"
+    "answer": "each factor’s rental price = the value of the marginal product for that factor"
   },
   {
     "course_id": 1,
     "week_id": 10,
-    "question": "The political philosophy according to which the government should punish crimes and enforce voluntary agreements but not redistribute income is",
+    "question": "\"The political philosophy according to which the government should punish crimes and enforce voluntary agreements but not redistribute income\" is",
     "options": [
       "Utilitarianism",
       "Liberalism",
@@ -1037,7 +1037,7 @@
   {
     "course_id": 1,
     "week_id": 9,
-    "question": "The increase in total cost that arises from an extra unit of production is",
+    "question": "The increase in total cost that arises from an extra unit of production are",
     "options": [
       "fixed costs",
       "variable costs",
@@ -1085,7 +1085,7 @@
   {
     "course_id": 1,
     "week_id": 9,
-    "question": "The relationship between the quantity of inputs used to make a good and the quantity of output is",
+    "question": "The relationship between the quantity of inputs used to make a good and the quantity of output of that good is",
     "options": [
       "Laffer’s curve",
       "Phillips curve",
@@ -1097,7 +1097,7 @@
   {
     "course_id": 1,
     "week_id": 9,
-    "question": "Total revenue minus total cost including explicit and implicit costs is",
+    "question": "Total revenue minus total cost, including both explicit and implicit costs” is a definition of",
     "options": [
       "economic profit",
       "accounting profit",
@@ -1109,7 +1109,7 @@
   {
     "course_id": 1,
     "week_id": 9,
-    "question": "When one firm produces at lower cost than competitive firms, it is a",
+    "question": "When the cost of production for a single firm is much lesser than the cost of production for competitive firms,we have a / an",
     "options": [
       "natural monopoly",
       "artificial monopoly",
@@ -1145,7 +1145,7 @@
   {
     "course_id": 1,
     "week_id": 9,
-    "question": "Total revenue minus total explicit cost is",
+    "question": "Total revenue minus total explicit cost is a defination of",
     "options": [
       "economic profit",
       "accounting profit",
