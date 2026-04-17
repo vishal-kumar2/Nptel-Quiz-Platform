@@ -505,7 +505,7 @@
   {
     "course_id": 1,
     "week_id": 5,
-    "question": "a simplified description, especially a mathematical one, of a system or process, to assist calculations and predictions” is the definition of a / an",
+    "question": "\"a simplified description, especially a mathematical one, of a system or process, to assist calculations and predictions\" is the definition of a / an",
     "options": ["equation", "model", "philosophy", "process dynamics"],
     "answer": "model"
   },
@@ -531,15 +531,15 @@
       "excludable, rival in consumption",
       "non-excludable, rival  in consumption",
       "excludable, non-rival  in consumption",
-      "non-excludable, non-rival  in consumption"
+      "non-excludable, non-rival in consumption"
     ],
-    "answer": "excludable, rival  in consumption"
+    "answer": "excludable, rival in consumption"
   },
 
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Quantity supplied rises with price is",
+    "question": "\"the claim that, other things being equal, the quantity supplied of a good rises when the price of the good rises\" is a statement of",
     "options": [
       "law of demand",
       "law of supply",
@@ -551,7 +551,7 @@
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Table showing price vs quantity supplied is",
+    "question": "“a table that shows the relationship between the price of a good and the quantity supplied” is",
     "options": [
       "demand table",
       "demand schedule",
@@ -563,14 +563,14 @@
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Coffee and sugar are",
+    "question": "Coffee powder and sugar are",
     "options": ["substitutes", "complements", "club goods", "public goods"],
     "answer": "complements"
   },
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Graph of price vs quantity demanded is",
+    "question": "“a graph of the relationship between the price of a good and the quantity demanded” is",
     "options": [
       "demand curve",
       "supply curve",
@@ -582,7 +582,7 @@
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Elasticity of supply measures",
+    "question": "“a measure of how much the quantity supplied of a good responds to a change in the price of that good, computed as the percentage change in quantity supplied divided by the percentage change in price” is",
     "options": [
       "price elasticity of demand",
       "income elasticity",
@@ -594,26 +594,26 @@
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Demand increases with income is",
+    "question": "“a good for which, other things being equal, an increase in income leads to an increase in demand” is",
     "options": ["normal good", "inferior good", "Giffen good", "common good"],
     "answer": "normal good"
   },
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Elasticity between two goods is",
+    "question": "“a measure of how much the quantity demanded of one good responds to a change in the price of another good, computed as the percentage change in quantity demanded of the first good divided by the percentage change in price of the second good” is",
     "options": [
-      "price elasticity",
-      "income elasticity",
-      "cross-price elasticity",
-      "supply elasticity"
+      "price elasticity of demand",
+      "income elasticity of demand",
+      "cross-price elasticity of demand",
+      "supply elasticity of demand"
     ],
-    "answer": "cross-price elasticity"
+    "answer": "cross-price elasticity of demand"
   },
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Graph of price vs quantity supplied is",
+    "question": "“a graph of the relationship between the price of a good and the quantity supplied” is",
     "options": [
       "demand curve",
       "supply curve",
@@ -625,7 +625,7 @@
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Legal minimum price is",
+    "question": "“a legal minimum on the price at which a good can be sold” is",
     "options": [
       "price ceiling",
       "price floor",
@@ -637,7 +637,7 @@
   {
     "course_id": 1,
     "week_id": 6,
-    "question": "Table showing price vs quantity demanded is",
+    "question": "“a table that shows the relationship between the price of a good and the quantity demanded” is",
     "options": [
       "demand table",
       "demand schedule",
@@ -657,28 +657,28 @@
   {
     "course_id": 1,
     "week_id": 7,
-    "question": "Amount a buyer is willing to pay minus actual payment is",
+    "question": "“the amount a buyer is willing to pay for a good minus the amount the buyer actually pays for it” is",
     "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
     "answer": "consumer surplus"
   },
   {
     "course_id": 1,
     "week_id": 7,
-    "question": "Fall in total surplus due to market distortion is",
+    "question": "“the fall in total surplus that results from a market distortion, such as a tax” is",
     "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
     "answer": "deadweight loss"
   },
   {
     "course_id": 1,
     "week_id": 7,
-    "question": "Amount seller receives minus cost is",
+    "question": "“the amount a seller is paid for a good minus the seller’s cost of providing it” is",
     "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
     "answer": "producer surplus"
   },
   {
     "course_id": 1,
     "week_id": 7,
-    "question": "Maximum amount buyer will pay is",
+    "question": "“the maximum amount that a buyer will pay for a good” is",
     "options": ["willingness to pay", "market demand", "demand curve", "buyer’s surplus"],
     "answer": "willingness to pay"
   },
@@ -692,28 +692,28 @@
   {
     "course_id": 1,
     "week_id": 7,
-    "question": "Area between supply curve and price is",
+    "question": "The area between the supply curve and the price is an indicator of",
     "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
     "answer": "producer surplus"
   },
   {
     "course_id": 1,
     "week_id": 7,
-    "question": "Value to buyers minus cost to sellers is",
+    "question": "Value to buyers - Cost to sellers is",
     "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
     "answer": "total surplus"
   },
   {
     "course_id": 1,
     "week_id": 7,
-    "question": "Price prevailing in world market is",
+    "question": "\"the price of a good that prevails in the world market for that good\" is the definition of\"",
     "options": ["export price", "import price", "world price", "domestic price"],
     "answer": "world price"
   },
   {
     "course_id": 1,
     "week_id": 7,
-    "question": "Area between demand curve and price is",
+    "question": "The area between demand curve and price is indicator of",
     "options": ["consumer surplus", "producer surplus", "total surplus", "deadweight loss"],
     "answer": "consumer surplus"
   },
