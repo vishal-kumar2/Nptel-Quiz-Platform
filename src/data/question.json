@@ -405,7 +405,7 @@
       "jump dispersal",
       "drifting"
     ],
-    "answer": "secular dispersal"
+    "answer": "diffusion"
   },
   {
     "course_id": 1,
@@ -440,12 +440,12 @@
     "week_id": 5,
     "question": "Fire protection is",
     "options": ["private good", "club good", "common resource", "public good"],
-    "answer": "public good"
+    "answer": "club good"
   },
   {
     "course_id": 1,
     "week_id": 5,
-    "question": "Ability to produce using fewer inputs is",
+    "question": "\"the ability to produce a good using fewer inputs than another producer\" is",
     "options": [
       "comparative advantage",
       "absolute advantage",
@@ -457,43 +457,43 @@
   {
     "course_id": 1,
     "week_id": 5,
-    "question": "Which is not internalisation method?",
+    "question": "Which of these is not a method of internalisation of externalities?",
     "options": [
       "tradable pollution permits",
       "charities to social causes",
       "command-and-control policies",
       "free market"
     ],
-    "answer": "charities to social causes"
+    "answer": "free market"
   },
   {
     "course_id": 1,
     "week_id": 5,
     "question": "Public goods are",
     "options": [
-      "excludable, rival",
-      "non-excludable, rival",
-      "excludable, non-rival",
-      "non-excludable, non-rival"
+      "excludable, rival in consumption",
+      "non-excludable, rival in consumption",
+      "excludable, non-rival in consumption",
+      "non-excludable, non-rival in consumption"
     ],
-    "answer": "non-excludable, non-rival"
+    "answer": "non-excludable, non-rival in consumption"
   },
   {
     "course_id": 1,
     "week_id": 5,
     "question": "Club goods are",
     "options": [
-      "excludable, rival",
-      "non-excludable, rival",
-      "excludable, non-rival",
-      "non-excludable, non-rival"
+      "excludable, rival in consumption",
+      "non-excludable, rival in consumption",
+      "excludable, non-rival in consumption",
+      "non-excludable, non-rival in consumption"
     ],
-    "answer": "excludable, non-rival"
+    "answer": "excludable, non-rival in consumption"
   },
   {
     "course_id": 1,
     "week_id": 5,
-    "question": "Impact on bystander well-being is",
+    "question": "\"the impact of one person’s actions on the well-being of a bystander\" is",
     "options": [
       "actor-observer effect",
       "externality",
@@ -505,14 +505,14 @@
   {
     "course_id": 1,
     "week_id": 5,
-    "question": "Simplified system description is",
+    "question": "a simplified description, especially a mathematical one, of a system or process, to assist calculations and predictions” is the definition of a / an",
     "options": ["equation", "model", "philosophy", "process dynamics"],
     "answer": "model"
   },
   {
     "course_id": 1,
     "week_id": 5,
-    "question": "Measure of happiness is",
+    "question": "\"a measure of happiness or satisfaction\" is",
     "options": ["utility", "satiety", "gladity", "value"],
     "answer": "utility"
   },
@@ -528,12 +528,12 @@
     "week_id": 5,
     "question": "Private goods are",
     "options": [
-      "excludable, rival",
-      "non-excludable, rival",
-      "excludable, non-rival",
-      "non-excludable, non-rival"
+      "excludable, rival in consumption",
+      "non-excludable, rival  in consumption",
+      "excludable, non-rival  in consumption",
+      "non-excludable, non-rival  in consumption"
     ],
-    "answer": "excludable, rival"
+    "answer": "excludable, rival  in consumption"
   },
 
   {
