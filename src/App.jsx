@@ -223,7 +223,7 @@ const submitQuiz = async () => {
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-br from-indigo-100 to-blue-200">
       
-
+      <Analytics />
       <Header user={user} setUser={setUser} resetApp={resetApp} />
 
       <Routes>
