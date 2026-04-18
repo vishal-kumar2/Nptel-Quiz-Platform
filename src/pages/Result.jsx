@@ -114,7 +114,7 @@ export default function Result() {
 
           <button
             onClick={() => navigate("/select")}
-            className="px-5 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white"
+            className="px-5 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white "
           >
             Reattempt 🔁
           </button>

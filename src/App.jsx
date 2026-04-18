@@ -20,7 +20,7 @@ import { saveAttempt } from "./services/attempts";
 
 
 const courses = [{ id: 1, title: "Conservation Economics" }];
-const weeks = [1,2,3,4,5,6,7,8,9,10,11,12];
+const weeks = [0,1,2,3,4,5,6,7,8,9,10,11,12];
 
 export default function App() {
   const { user, setUser, loading } = useAuth();

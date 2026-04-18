@@ -1,6 +1,106 @@
 [
   {
     "course_id": 1,
+    "week_id": 0,
+    "question": "Which of these is true?",
+    "options": ["Wants are unlimited, resources are unlimited",
+                "Wants are limited, resources are limited",
+                "Wants are unlimited, resources are limited",
+                "Wants are limited, resources are unlimited"],
+    "answer": "Wants are unlimited, resources are limited"
+  },
+  {
+    "course_id": 1,
+    "week_id": 0,
+    "question": "The property of society getting the most it can from its scarce resources is a definition of",
+    "options": [
+      "efficiency",
+      "equality",
+      "prudence",
+      "sustainability"
+      
+    ],
+    "answer": "efficiency"
+  },
+  {
+    "course_id": 1,
+    "week_id": 0,
+    "question": "\"something that induces a person to act\" is a definition of",
+    "options": [
+      "enticement",
+      "attraction",
+      "incentive",
+      "occupation"
+    ],
+    "answer": "incentive"
+  },
+  {
+    "course_id": 1,
+    "week_id": 0,
+    "question": "Input costs that require an outlay of money are",
+    "options": ["explicit costs",
+              "implicit costs",
+              "opportunity costs",
+              "phantom costs"
+              ],
+    "answer": "explicit costs"
+  },
+  {
+    "course_id": 1,
+    "week_id": 0,
+    "question": "\"the ability of an individual to own and exercise control over scarce resources\" is known as",
+    "options": ["property rights", "resource rights", "social rights", "individual rights"],
+    "answer": "property rights"
+  },
+  {
+    "course_id": 1,
+    "week_id": 0,
+    "question": "Whatever must be given up to obtain some item is a definition of",
+    "options": [
+      "explicit costs",
+      "implicit costs",
+      "opportunity costs",
+      "phantom costs"
+    ],
+    "answer": "opportunity costs"
+  },
+  {
+    "course_id": 1,
+    "week_id": 0,
+    "question": "Most of rational thinking occurs",
+    "options": ["before the margin", "after the margin", "at the margin", "none of these"],
+    "answer": "at the margin"
+  },
+  {
+    "course_id": 1,
+    "week_id": 0,
+    "question": "Rational decision making compares",
+    "options": ["marginal benefits to average costs", "average benefits to average costs", "average benefits to marginal costs", "marginal benefits to marginal costs"],
+    "answer": "marginal benefits to marginal costs"
+  },
+  {
+    "course_id": 1,
+    "week_id": 0,
+    "question": "\"an economy that allocates resources through the decentralised decisions of many firms and households as they interact in markets for goods and services\" is a / an",
+    "options": ["rural economy", "market economy", "planned economy", "urban economy"],
+    "answer": "market economy"
+  },
+  {
+    "course_id": 1,
+    "week_id": 0,
+    "question": "\"the ability to produce a good at a lower opportunity cost than another producer\" is a definition of",
+    "options": [
+      "real advantage",
+      "monetary advantage",
+      "comparative advantage",
+      "opportunity advantage"
+    ],
+    "answer": "comparative advantage"
+  },
+
+  
+  {
+    "course_id": 1,
     "week_id": 1,
     "question": "In the word root for conservation, servare stands for",
     "options": ["together", "to keep", "house", "manage"],

@@ -16,8 +16,7 @@ export default function Header({ user, setUser, resetApp }) {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <header className=" top-0  bg-white/70 backdrop-blur-xl border-b border-white/30 shadow-sm">
-
+    <header className="top-0 bg-white/70 backdrop-blur-xl border-b border-white/30 shadow-sm">
       <div className="max-w-6xl mx-auto px-6 py-3 flex justify-between items-center">
 
         {/* 🔥 LEFT: LOGO */}
@@ -37,31 +36,8 @@ export default function Header({ user, setUser, resetApp }) {
           </span>
         </div>
 
-        {/* 🔥 CENTER: NAV LINKS */}
+        {/* 🔥 CENTER: NAV LINKS (Now Empty except optional Dashboard) */}
         <div className="hidden md:flex items-center gap-6 text-sm font-medium">
-
-          <button
-            onClick={() => navigate("/")}
-            className={`transition ${
-              isActive("/")
-                ? "text-indigo-600"
-                : "text-gray-600 hover:text-indigo-600"
-            }`}
-          >
-            Home
-          </button>
-
-          <button
-            onClick={() => navigate("/select")}
-            className={`transition ${
-              isActive("/select")
-                ? "text-indigo-600"
-                : "text-gray-600 hover:text-indigo-600"
-            }`}
-          >
-            Practice
-          </button>
-
           {ENABLE_AUTH && (
             <button
               onClick={() => navigate("/dashboard")}
@@ -74,7 +50,6 @@ export default function Header({ user, setUser, resetApp }) {
               Dashboard
             </button>
           )}
-
         </div>
 
         {/* 🔥 RIGHT: ACTIONS */}
